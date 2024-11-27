@@ -1,16 +1,23 @@
-<mjml>
+<mjml lang="pt">
 
   <mj-head>
 
     <mj-attributes>
-      <mj-text align="center" color="#555" />
+      <mj-text align="left" color="#555" font-size="16px" />
       <mj-section background-color="#fff" />
     </mj-attributes>
-
+		<mj-title>A minha primeira Newsletter</mj-title>
   </mj-head>
 
   <mj-body background-color="#eee">
-    <mj-section>
+    <mj-section background-color="#F0F0F0">
+      <mj-column>
+        <mj-text align="center">
+          <a target="_blank" href="https://claracatarinacarvalho.github.io/NewsletterEx1/">
+          <span style="font-size:12px">Versão online</span>
+        </mj-text>
+      </mj-column>
+        
 
       <mj-column>
         <mj-text>
@@ -24,6 +31,13 @@
         </mj-text>
       </mj-column>
 
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-button border-radius="50px" href="https://depechemode.com" font-family="Helvetica" background-color="#000000" color="white">
+          Click no FCP
+         </mj-button>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
