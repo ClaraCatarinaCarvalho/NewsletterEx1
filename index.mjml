@@ -10,15 +10,17 @@
   </mj-head>
 
   <mj-body background-color="#eee">
-    <mj-section background-color="#F0F0F0">
+    <mj-section background-color="#000000">	
       <mj-column>
         <mj-text align="center">
-          <a target="_blank" href="https://claracatarinacarvalho.github.io/NewsletterEx1/">
+          <a  target="_blank"
+            href="https://claracatarinacarvalho.github.io/NewsletterEx1/">
           <span style="font-size:12px">Versão online</span>
+          </a>
         </mj-text>
       </mj-column>
-        
-
+      </mj-section> 
+			<mj-section>
       <mj-column>
         <mj-text>
           First column
